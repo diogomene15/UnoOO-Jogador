@@ -12,6 +12,7 @@ public class Jogador {
     }
 
     public void comprarCarta() {
+        return;
         
     }
 }
