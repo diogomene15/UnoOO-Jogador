@@ -13,7 +13,7 @@ public class MaoCartas {
     }
 
     public void contaCartas() {
-        
+        return;
     }
 
     public Carta[] getCartas() {
