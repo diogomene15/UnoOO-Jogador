@@ -1,4 +1,4 @@
-package jogador;
+package base.jogador;
 
 import base.*;
 
@@ -12,13 +12,12 @@ public class MaoCartas extends Baralho{
     }
 
     @Override
-    private void mostrarCartas(){
-
+    private void mostrarCartas() {
+        
     }
 
     @Override
     public Carta pegarCarta(){
-
     }
 
     public void contaCartas() {

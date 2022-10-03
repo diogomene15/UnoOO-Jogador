@@ -1,4 +1,4 @@
-import jogador.Jogador;
+import base.jogador.Jogador;
 
 class Roda {
   Baralho compra, descarte;//o baralho enviado pelo "jogo" nada mais é um baralho de compra, que retiramos as cartas iniciais dos jogadores
