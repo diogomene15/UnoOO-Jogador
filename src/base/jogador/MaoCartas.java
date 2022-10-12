@@ -1,4 +1,6 @@
-package base.jogador;
+// EXCLUIR ESTA CLASSE QUANDO FOR PERCEBIDA A INUTILIDADE DO CÓDIGO INTERNO
+// (╯°□°)╯︵ ┻━┻
+package jogador;
 
 import base.*;
 

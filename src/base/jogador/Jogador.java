@@ -1,4 +1,4 @@
-package base.jogador;
+package jogador;
 
 public class Jogador {
 
