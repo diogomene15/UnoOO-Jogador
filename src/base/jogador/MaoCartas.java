@@ -1,33 +1,30 @@
 // EXCLUIR ESTA CLASSE QUANDO FOR PERCEBIDA A INUTILIDADE DO CÓDIGO INTERNO
 // (╯°□°)╯︵ ┻━┻
-package jogador;
+package base.jogador;
+
+import java.util.ArrayList;
+import base.Baralho;
 
 import base.*;
 
 public class MaoCartas extends Baralho{
-    
+    private ArrayList<Carta> cartas;
     public static final short tamInicial = 7;
     
-    @Override
     public void inicializar(ArrayList<Carta> cartasIniciais){
-        this.cartas = cartas
+        this.cartas = cartasIniciais;
     }
 
-    @Override
-    private void mostrarCartas() {
-        
+    public void receberCarta(Carta carta){
+        this.cartas.add(carta);
     }
 
-    @Override
-    public Carta pegarCarta(){
-    }
-
-    public void contaCartas() {
-        
+    public int getQuantidadeCartas() {
+        return this.cartas.size();
     }
 
     public MaoCartas(ArrayList<Carta> cartasIniciais){
-        this.inicializar();
+        this.inicializar(cartasIniciais);
     }
 
 }

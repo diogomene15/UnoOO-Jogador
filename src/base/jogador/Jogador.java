@@ -1,9 +1,9 @@
-package jogador;
+package base.jogador;
 
 public class Jogador {
 
     private String nome;
-    private MaoCartas maoCartas = new MaoCartas();
+    private MaoCartas maoCartas;
 
     public String getNome() {
         return nome;
