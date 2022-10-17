@@ -9,8 +9,8 @@ public class MaoCartas extends Baralho{
     public static final short tamInicial = 7;
     
     @Override
-    public void inicializar(){
-
+    public void inicializar(ArrayList<Carta> cartasIniciais){
+        this.cartas = cartas
     }
 
     @Override
@@ -26,7 +26,7 @@ public class MaoCartas extends Baralho{
         
     }
 
-    public MaoCartas(){
+    public MaoCartas(ArrayList<Carta> cartasIniciais){
         this.inicializar();
     }
 
