@@ -1,3 +1,5 @@
+import jogador.Jogador;
+
 public class Jogo{
 
     private Baralho baralho;
