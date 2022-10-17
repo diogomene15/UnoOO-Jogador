@@ -1,4 +1,4 @@
-import jogador.Jogador;
+import base.jogador.Jogador;
 
 public class Jogo{
 

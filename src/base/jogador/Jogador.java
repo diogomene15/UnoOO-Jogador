@@ -23,5 +23,8 @@ public class Jogador {
         this.nome = nome.toLowerCase().trim();
         this.maoCartas = maoInicial;
     }
+    public Jogador(String nome){
+        this.nome = nome.toLowerCase().trim();
+    }
 
 }
