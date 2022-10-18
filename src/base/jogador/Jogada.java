@@ -1,4 +1,4 @@
-package jogador;
+package base.jogador;
 
 public interface Jogada{
     /*Classe: jogada de compra;

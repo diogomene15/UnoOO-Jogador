@@ -2,6 +2,8 @@ package base;
 
 import java.util.ArrayList;
 import base.cartas.*;
+import base.jogador.*;
+
 public class Roda {
 	Baralho compra;
 	Baralho descarte = new Baralho(Baralho.NORMAL);
@@ -121,7 +123,7 @@ public class Roda {
 
     public void comprar(int qtd, Jogador jogador){
         for(int i =0; i<qtd; i++){
-            //jogador.comprarCarta(compra.comprarCarta());
+            jogador.comprar(compra.comprarCarta());
         }
     }
 

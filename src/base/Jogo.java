@@ -1,5 +1,8 @@
 package base;
+
+import java.util.ArrayList;
 import java.util.Scanner;
+import base.jogador.*;
 
 /**
  * @author Autores: Daniel Schutz, Felipe Pellissari, Fernanda Pessoa e José Lucas.
@@ -10,7 +13,7 @@ import java.util.Scanner;
 public class Jogo{
 
     private Baralho baralho;
-    private Jogador[] jogadores = new Jogador[15];
+    private ArrayList<Jogador> jogadores = new ArrayList<Jogador>();
     private Roda roda;
     private int numeroJogadores;
 
@@ -38,7 +41,7 @@ public class Jogo{
         for(int i=0; i<numeroJogadores; i++)
         {
             String nome = sc.nextLine();
-            this.jogadores[i] = new Jogador(nome);
+            this.jogadores.add(new Jogador(nome));
 
         }
 
@@ -46,22 +49,22 @@ public class Jogo{
         roda = new Roda(this.baralho, this.jogadores);
     }
 
-    public int confereFim(){
-        if(/*se n° cartas =0*/){
-            return 0;
-        } else {
-            return 1;
-        }
-    }
+    // public int confereFim(){
+    //     if(true){ //COLOCADO TRUE POIS NÃO HAVIA CONTEXTO SUFICIENTE PARA REMODELAGEM - GRUPO JOGADOR/MAOJOGADOR/JOGADA
+    //         return 0;
+    //     } else {
+    //         return 1;
+    //     }
+    // }
     
-    while(confereFim){
-        // jogarCarta();//criar função para jogar carta
-        // execAcao(); //executar a ação da carta
-        // confereFim();//verificar se o jogador[i] ficou sem cartas
-        // proxJogador();//mudar pro proximo jogador
+    // while(confereFim()){
+    //     // jogarCarta();//criar função para jogar carta
+    //     // execAcao(); //executar a ação da carta
+    //     // confereFim();//verificar se o jogador[i] ficou sem cartas
+    //     // proxJogador();//mudar pro proximo jogador
 
-    }
-    System.out.print("O jogador %s ganhou.",jogadores[i]);
+    // }
+    // System.out.print("O jogador %s ganhou.",jogadores[i]);
     
 
 }

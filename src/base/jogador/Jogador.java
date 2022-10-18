@@ -2,14 +2,11 @@ package base.jogador;
 
 import java.util.ArrayList;
 import base.*;
+import base.cartas.Carta;
 
-public class Jogador implements jogada{
+public class Jogador implements Jogada{
 
     private String nome;
-<<<<<<< HEAD
-=======
-    //private MaoCartas maoCartas;
->>>>>>> fe8d05f168bb1ffbcfc4a2698595bafa7acb9442
 
     ArrayList<Carta> maoJogador = new ArrayList<Carta>();
 
@@ -31,8 +28,7 @@ public class Jogador implements jogada{
 
     /**
     *
-    * Compra uma carta, adicionando uma carta a MaoJogador,
-    * retirando-a do monte de compras
+    * Compra n cartas, adicionando uma carta a MaoJogador
     *
     **/
     @Override
@@ -42,7 +38,14 @@ public class Jogador implements jogada{
             // Retirar carta do topo do monte de compras
         }
     }
-
+        /**
+    *
+    * Compra uma carta, adicionando uma carta a MaoJogador,
+    *
+    **/
+    public void comprar(Carta carta){
+        
+    }
      /**
     *
     * Descarta uma carta, retirando uma carta a MaoJogador,

@@ -4,8 +4,8 @@ package base.jogador;
 
 import java.util.ArrayList;
 import base.Baralho;
+import base.cartas.Carta;
 
-import base.*;
 
 public class MaoCartas extends Baralho{
     private ArrayList<Carta> cartas;
@@ -24,6 +24,7 @@ public class MaoCartas extends Baralho{
     }
 
     public MaoCartas(ArrayList<Carta> cartasIniciais){
+        super(Baralho.NORMAL);
         this.inicializar(cartasIniciais);
     }
 
