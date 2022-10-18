@@ -1,4 +1,4 @@
-package Acao;
+package base.Acao;
 
 public class Acao {
   public final static Bloqueio BLOCK = new Bloqueio();

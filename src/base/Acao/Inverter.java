@@ -1,4 +1,4 @@
-package Acao;
+package base.Acao;
 
 public class Inverter extends Acao {
   public Inverter() {

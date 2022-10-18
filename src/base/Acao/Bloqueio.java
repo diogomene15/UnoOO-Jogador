@@ -1,4 +1,4 @@
-package Acao;
+package base.Acao;
 
 public class Bloqueio extends Acao {
   public Bloqueio() {

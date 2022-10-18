@@ -1,4 +1,4 @@
-package Acao;
+package base.Acao;
 //import java.util.Scanner;
 
 public class Mais4 extends Acao {
