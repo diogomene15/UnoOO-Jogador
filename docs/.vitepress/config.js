@@ -7,11 +7,12 @@ module.exports = {
             {text:"Início", link:"/"},
             {text:"Classes",
                 items:[
-                    {text:"Jogador", link:"/jogador"},
-                    {text:"Mão Cartas", link:"/mao-cartas"},
-                    {text:"Jogada", link:"/jogada"}    
+                    {text:"Jogador", link:"/jogador/"},
+                    {text:"Mão Cartas", link:"/mao-cartas/"},
+                    {text:"Jogada", link:"/jogada/"}    
                 ]
-            }
+            },
+            
 
 
         ],
@@ -24,9 +25,9 @@ module.exports = {
             {
                 text:"Classes",
                 items:[
-                    {text:"Jogador", link:"/jogador"},
-                    {text:"Mão Cartas", link:"/mao-cartas"},
-                    {text:"Jogada", link:"/jogada"}   
+                    {text:"Jogador", link:"/jogador/"},
+                    {text:"Mão Cartas", link:"/mao-cartas/"},
+                    {text:"Jogada", link:"/jogada/"}   
                 ]
             }
         ],
