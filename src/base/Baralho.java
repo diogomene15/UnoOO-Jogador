@@ -9,6 +9,7 @@ import cartas.CartaEspecialSemCor;
 import cartas.CartaNormal;
 import cartas.Cor;
 
+
 /**
  * Representa a abstração de um conjunto de cartas
  * 
