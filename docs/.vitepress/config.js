@@ -1,4 +1,5 @@
 module.exports = {
+    base:"/UnoOO-Jogador/",
     lang:"pt-BR",
     title:"Jogador Docs",
     appearance:"dark",
