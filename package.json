@@ -1,0 +1,24 @@
+{
+  "name": "doc-uno-jogador",
+  "version": "1.0.0",
+  "description": "Documentação de classes do grupo (Jogador, Jogada, MaoCartas)",
+  "main": "index.js",
+  "scripts": {
+    "dev":"vitepress dev docs",
+    "build":"vitepress build docs",
+    "serve":"vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogomene15/UnoOO-Jogador.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogomene15/UnoOO-Jogador/issues"
+  },
+  "homepage": "https://github.com/diogomene15/UnoOO-Jogador#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.25"
+  }
+}
