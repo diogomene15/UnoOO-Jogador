@@ -1,6 +1,3 @@
----
-sidebar:{}
----
 # Jogador
 
 ## Construtores
@@ -11,7 +8,7 @@ Para isso basta utilizar *`Jogador(String nome)`*.
 <br>
 **Exemplo:**
 ```java
-Jogador jogador = new Jogador("Bernaldo")
+Jogador jogador = new Jogador("Bernaldo");
 ```
 
 ### Com nome e uma MaoCartas inicial
@@ -19,5 +16,5 @@ Pode-se utilizar o formato *`Jogador(String nome, MaoCartas mao)`*.
 <br>
 **Exemplo:**
 ```java
-Jogador jogador = new Jogador("Bernaldo", new MaoCartas())
+Jogador jogador = new Jogador("Bernaldo", new MaoCartas());
 ```
