@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.1263d78b.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"jogada/elements.md"}'),o={name:"jogada/elements.md"};function s(n,r,c,d,m,p){return a(),t("div")}const l=e(o,[["render",s]]);export{i as __pageData,l as default};
